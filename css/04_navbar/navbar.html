@@ -14,13 +14,13 @@
       }
       .nav-container {
         margin-bottom: 40px;
-
       }
       h2 {
         margin-bottom: 20px;
       }
       .nav1 {
-        background-color: #689d6a;
+        border: 2px solid #ebdbb2;
+        border-radius: 10px;
         padding: 10px;
       }
       .nav1 ul {
@@ -36,7 +36,6 @@
       .nav1 a {
         text-decoration: none;
         color: #ebdbb2;
-        background-color: #a89984;
         padding: 5px 10px;
         position: relative;
       }
@@ -62,41 +61,84 @@
       .nav1 a:hover::after {
         transform: scaleX(1);
       }
+      .nav2 {
+        border: 2px solid #ebdbb2;
+        border-radius: 10px;
+        width: 200px;
+        padding: 20px;
+      }
+      .nav2 ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .nav2 li {
+        margin-bottom: 15px;
+      }
+      .nav2 a {
+        text-decoration: none;
+        color: #ebdbb2;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+      }
+      .nav2 a:hover {
+        border: 2px solid #ebdbb2;
+        border-radius: 10px;
+        padding: 3px;
+      }
+
+      .nav2 .login-btn {
+        background-color: #b16286;
+        text-align: left;
+        color: #ebdbb2;
+        border: none;
+        width: 50px;
+        margin-left: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .nav2 .login-btn:hover {
+        background-color: #b27791;
+        border: 2px solid #ebdbb2;
+        padding: 3px;
+      }
     </style>
   </head>
   <body>
     <div class="nav-container">
-        <h2>variation 1 : horizontal with underline</h2>
-        <nav class="nav1">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><button class="login-btn">Login</button></a></li>
-            </ul>
-        </nav>
+      <h2>variation 1 : horizontal with underline</h2>
+      <nav class="nav1">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><button class="login-btn">Login</button></li>
+        </ul>
+      </nav>
     </div>
     <div class="nav-container">
-        <h2>variation 2 : horizontal with underline</h2>
-        <nav class="nav2">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><button class="login-btn">Login</button></a></li>
-            </ul>
-        </nav>
+      <h2>variation 2 : horizontal with underline</h2>
+      <nav class="nav2">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><button class="login-btn">Login</button></li>
+        </ul>
+      </nav>
     </div>
     <div class="nav-container">
-        <h2>variation 3 : horizontal with underline</h2>
-        <nav class="nav3">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><button class="login-btn">Login</button></a></li>
-            </ul>
-        </nav>
+      <h2>variation 3 : horizontal with underline</h2>
+      <nav class="nav3">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><button class="login-btn">Login</button></li>
+        </ul>
+      </nav>
     </div>
   </body>
 </html>
