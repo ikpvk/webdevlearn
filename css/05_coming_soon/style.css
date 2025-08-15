@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    height: 100%;
+}
+
+.container {
+    background: linear-gradient(135deg,#8a2be2,#4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(255, 255, 244, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 500px;
+}
+
+.cofee_logo {
+    /* height: 50%; */
+    width: 50%;
+    object-fit: contain;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 250px;
+    align-self: center;
+}
+
+button {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    color: #333;
+    cursor: pointer;
+    align-self: center;
+    width: 264px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.4);
+}
+
+button:hover {
+    background-color: #eee;
+    box-shadow: 0 6px 6px rgba(0,0,0, 0.4);
+}
